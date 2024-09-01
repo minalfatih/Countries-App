@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Would you like to know information about countries? this website for you">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Countries</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div
+          class="container p-4 d-flex justify-content-between align-items-center"
+        >
+          <h1 class="fs-5 fw-bold fs-lg-3 m-0">Where in the world?</h1>
+          <div
+            class="d-flex justify-content-center align-items-center gap-2"
+            id="theme"
+          >
+            <i class="fa-solid fa-moon"></i>
+            <i class="fa-regular fa-sun"></i>
+            <span>Dark Mode</span>
+          </div>
+        </div>
+      </header>
+
+      <section class="serach-section">
+        <div class="container pt-5 pb-5">
+          <div
+            class="box d-flex justify-content-between align-items-start flex-column flex-md-row gap-5"
+          >
+            <div class="search">
+              <i class="fa-solid fa-search"></i>
+              <input
+                class="ms-3"
+                type="text"
+                placeholder="Search for a country..."
+              />
+            </div>
+
+            <div class="select-box">
+              <div
+                class="select d-flex justify-content-between align-items-center"
+              >
+                <p class="m-0">Filter by Region</p>
+                <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    stroke="hsl(200, 15%, 8%)"
+                    stroke-width="1.5"
+                    fill="none"
+                    d="m1 5 4-4 4 4"
+                  />
+                </svg>
+              </div>
+
+              <ul class="country-region">
+                <li><span data-region="Africa">Africa</span></li>
+                <li><span data-region="Americas">America</span></li>
+                <li><span data-region="Asia">Asia</span></li>
+                <li><span data-region="Europe">Europe</span></li>
+                <li><span data-region="Oceania">Oceania</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="back-btn">
+        <i class="fa-solid fa-arrow-left"></i>
+        <span class="ms-2">Back</span>
+      </div>
+
+      <div class="countries">
+        <div class="container position-relative">
+          <div
+            class="row justify-content-center justify-content-lg-between align-items-start gap-4"
+          ></div>
+        </div>
+      </div>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
