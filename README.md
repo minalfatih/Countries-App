@@ -28,8 +28,8 @@
 
 ### Links 🌐
 
-- Solution URL: [Repo link](https://your-solution-url.com)
-- Live Site URL: [Live link](https://your-live-site-url.com)
+- Solution URL: [Repo link](https://github.com/minalfatih/Countries-App)
+- Live Site URL: [Live link](https://minalfatih.github.io/Countries-App/)
 
 
 ## My process
