@@ -22,8 +22,8 @@
 
 ### Screenshot 📸
 
-![countries-light-mode](/countries-light-mode.jpg)
-![countries-dark-mode](/countries-dark-mode.jpg)
+![countries-light-mode](/design/countries-light-mode.jpg)
+![countries-dark-mode](/design/countries-dark-mode.jpg)
 
 
 ### Links 🌐
